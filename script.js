@@ -8,7 +8,7 @@ const wrapperReact = wrapper.getBoundingClientRect();
 const noBtnReact = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I Love You Too :)";
+  question.innerHTML = "I Love You Too ❤️💕";
   noBtn.style.display = "none";
   yesBtn.style.display = "none";
   gif.innerHTML = `<img src="./cat_love.gif" alt="gif" />`;
@@ -23,3 +23,4 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = i + "px";
   noBtn.style.top = j + "px";
 });
+
